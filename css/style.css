@@ -1232,6 +1232,10 @@ body {
   fill: white;
 }
 
+.question__item-question:focus {
+  outline: 1px solid #ff9900;
+}
+
 .question__item-text {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 700;
