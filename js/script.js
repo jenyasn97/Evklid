@@ -59,7 +59,7 @@ window.addEventListener('DOMContentLoaded', function () {
       burgerMenu.classList.add('header__menu-list')
       burgerMenu.classList.remove('header__menu-mobile')
       burgerMenu.classList.toggle('header__menu-mobile-active')
-      body.style.overflow = 'scroll';
+      body.style.overflowY = 'scroll';
     }
   })
 })
